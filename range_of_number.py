@@ -9,11 +9,13 @@ while True:
     try:     
         # Ask user for input
         number = int(input("Please input a number ranging 1-50: "))  
-# Check if the input is out of range, error message and break the loop if out of range
-
+        # Check if the input is out of range, error message and break the loop if out of range
+        if number < 1 or number > 50:
+            print("Integer is out of range")
+            break
 # Set the condition for the range and update quantity of the inputted numbers in range
 
-# Error message and break the loop if the input is not integer
+    # Error message and break the loop if the input is not integer
     except ValueError:
         print("Invalid input")
         break
