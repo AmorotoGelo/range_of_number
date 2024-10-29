@@ -16,9 +16,12 @@ while True:
         # Set the condition for the range and update quantity of the inputted numbers in range
         if 1 <= number <= 10:
             range_1_10 += 1
+        elif 11 <= number <= 20:
+            range_11_20 += 1    
     # Error message and break the loop if the input is not integer
     except ValueError:
         print("Invalid input")
         break
 # Display the quantity of inputted numbers per range
 print("Range 1-10:", range_1_10)
+print("Range 11-20:", range_11_20)
