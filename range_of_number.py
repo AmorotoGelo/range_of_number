@@ -17,7 +17,9 @@ while True:
         if 1 <= number <= 10:
             range_1_10 += 1
         elif 11 <= number <= 20:
-            range_11_20 += 1    
+            range_11_20 += 1
+        elif 21 <= number <= 30:
+            range_21_30 += 1        
     # Error message and break the loop if the input is not integer
     except ValueError:
         print("Invalid input")
@@ -25,3 +27,4 @@ while True:
 # Display the quantity of inputted numbers per range
 print("Range 1-10:", range_1_10)
 print("Range 11-20:", range_11_20)
+print("Range 21-30:", range_21_30)
