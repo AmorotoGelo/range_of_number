@@ -1,5 +1,9 @@
 # Initialize the quantity per range
-
+range_1_10 = 0
+range_11_20 = 0
+range_21_30 = 0
+range_31_40 = 0
+range_41_50 = 0
 # Loop to ask user for an input between 1 to 50
 
 # Ask user for input
