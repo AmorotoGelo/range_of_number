@@ -13,10 +13,12 @@ while True:
         if number < 1 or number > 50:
             print("Integer is out of range")
             break
-# Set the condition for the range and update quantity of the inputted numbers in range
-
+        # Set the condition for the range and update quantity of the inputted numbers in range
+        if 1 <= number <= 10:
+            range_1_10 += 1
     # Error message and break the loop if the input is not integer
     except ValueError:
         print("Invalid input")
         break
 # Display the quantity of inputted numbers per range
+print("Range 1-10:", range_1_10)
