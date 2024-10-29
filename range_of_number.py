@@ -21,7 +21,9 @@ while True:
         elif 21 <= number <= 30:
             range_21_30 += 1
         elif 31 <= number <= 40:
-            range_31_40 += 1            
+            range_31_40 += 1
+        elif 41 <= number <= 50:
+            range_41_50 += 1                
     # Error message and break the loop if the input is not integer
     except ValueError:
         print("Invalid input")
@@ -31,3 +33,4 @@ print("Range 1-10:", range_1_10)
 print("Range 11-20:", range_11_20)
 print("Range 21-30:", range_21_30)
 print("Range 31-40:", range_31_40)
+print("Range 41-50:", range_41_50)
